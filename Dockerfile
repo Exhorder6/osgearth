@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 
 RUN apt-get update && apt-get install -y curl openssl \
     && curl https://bintray.com/user/downloadSubjectPublicKey?username=bintray | apt-key add - \
